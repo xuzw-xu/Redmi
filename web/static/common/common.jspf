@@ -1,0 +1,27 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="ctx" value="${pageContext.request.contextPath}" />
+
+<!-- jquery3.3.1 -->
+<script src="${ctx}/static/plugs/jquery.js"></script>
+<!-- jquery page js -->
+<script src="${ctx}/static/plugs/jqueryPagination/js/jquery.pagination.min.js"></script>
+
+<!-- table js -->
+<script src="${ctx}/static/js/base/base.js"></script>
+
+<!-- layer -->
+<script src="${ctx}/static/plugs/layer/layer.js"></script>
+
+<!-- my css -->
+<link rel="stylesheet" type="text/css" href="${ctx}/static/css/hp-base.css" />
+
+<!-- alibaba iconfont -->
+<link rel="stylesheet" type="text/css" href="${ctx}/static/iconfont/iconfont.css">
+
+<!-- jquery page css -->
+<link rel="stylesheet" href="${ctx}/static/plugs/jqueryPagination/css/jquery.pagination.css" />
+
+<!-- common js var -->
+<script>
+	var basePath = '${ctx}';
+</script>
